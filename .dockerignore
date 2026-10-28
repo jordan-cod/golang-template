@@ -1,0 +1,13 @@
+.git
+.github
+bin
+tmp
+coverage.out
+coverage.html
+build-errors.log
+.env
+.env.*
+*.md
+Dockerfile
+docker-compose.yml
+.dockerignore
