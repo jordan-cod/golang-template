@@ -1,20 +1,19 @@
-# Binaries
-/tmp
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+/bin/
+/tmp/
+/coverage.out
+/coverage.html
 *.test
 *.out
+build-errors.log
 
-# Build logs
-/build-errors.log
-/air.log
+.env
+.env.*
+!.env.example
 
-# OS-specific
 .DS_Store
 Thumbs.db
+.idea/
+.vscode/
 
-# Go workspace
 /go.work
+/go.work.sum
